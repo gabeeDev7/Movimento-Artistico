@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(56, 56, 59, 0.85);
+    margin: 0;
+    color: white;
+}
+
+header {
+    background-color: #24292f;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header h4 {
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+
+.imagnes1 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.imagnes1 img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.comosurgiu {
+    background-color: #333;
+    margin: 20px 0;
+}
+
+.comosurgiu h3 {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.81);
+    padding: 10px;
+}
+
+.ondeencontra {
+    background-color: #444;
+    margin: 20px 0;
+}
+.ondeencontra2 h3{
+    padding: 10px;
+
+}
+
+.infcaverna {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #333;
+    margin: 20px 0;
+}
+
+.infcaverna h3 {
+    font-size: 24px;
+}
+
+.centralizarimgmap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer {
+    padding: 15px 0;
+    background-color: #24292f;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+h2 {
+    background-color: #ada2a2;
+    color: #ffffff;
+    padding: 10px;
+}
+
+h3 {
+    background-color: #ada2a2;
+    color: #ffffff;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+img {
+    transition: transform 0.5s ease;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.img:hover {
+    transform: scale(1.05);
+}
+
+
+.imagnescmsurgiu img {
+    width: 45%;
+    border-radius: 10px;
+}
+.imginfomaçoes{
+    max-height: 300px;
+    max-width: 300px;
+    min-height: 200px;
+}
+.imgcomoeraepoca{
+    max-height: 400px;
+    max-width: 400px;
+    min-height: 300px;
+    min-width: 400px;
+}
+.imgscomoeraepoca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.surgimento1, .surgimento2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:6%;
+}
+.surgimento1 div,
+.surgimento2 div {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+}
+.surgimento1 img,
+.surgimento2 .imgrino img {
+    height: auto;
+    width: 690px;
+    max-height: 300px;
+}
+
+.surgimento1 {
+    margin-bottom: 20px;
+}
+.surgimento1 h3{
+    padding-top: 30px;
+}
+.surgimento2 h3{
+    padding-top: 32px;
+}
+.informacoes h3{
+    padding: 2px;
+}
+img{
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    border-radius: 10px;
+}
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.7),
+    -12px -12px 25px rgba(255, 255, 255, 0.2);
+}
+
+.imgrino,.text2,.surgimento1text{
+    width: 50%;
+}

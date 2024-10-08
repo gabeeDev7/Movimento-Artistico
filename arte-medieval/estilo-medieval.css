@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(56, 56, 59, 0.85);
+    margin: 0;
+    color: white;
+}
+
+header {
+    background-color: #24292f;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header .cabecarioTextos p {
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 18px;
+}
+
+header .cabecarioImagens {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+header .cabecarioImagens img {
+    max-width: 480px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.CaracteristicasComoQuando {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.CaracteristicasComoQuando h2 {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.81);
+}
+
+.CaracteristicasComoQuando p {
+    text-align: justify;
+}
+
+.ComoQuandoImagens img {
+    width: 45%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Estilos {
+    background-color: #444;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.Estilos h2 {
+    background-color: #ada2a2;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.Estilos ol {
+    padding: 0;
+    list-style-type: none;
+}
+
+.Estilos li {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Estilos img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.Estilos img:hover {
+    transform: scale(1.05);
+}
+
+.Legado {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.Legado h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.Legado p {
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Legado img {
+    max-width: 290px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+}
+
+footer {
+    padding: 15px 0;
+    background-color: #24292f;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+img{
+    max-width: 300px;
+    max-height: 300px;
+    flex: 1;
+}
+.ArteMedieval{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ArteMedieval img{
+    width: 50px;
+    height: 50px;
+}
+.cabecarioTextos p{
+    text-align: center;
+}
+.cabecarioImagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cabecarioImagens img{
+    width: 450px;
+    height: 300px;
+}
+.ArteMedieval img{
+    background-color: white;
+    padding: 5px;
+}
+img{
+    border-radius: 10px;
+
+}
+
+.ComoQuandoImagens, .BizantinaImg,.GoticaImg,.RomanticaImg{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ComoQuandoImagens img,.BizantinaImg img,.GoticaImg img,.RomanticaImg img{
+    width: 350px;
+    height: 300px;
+}
