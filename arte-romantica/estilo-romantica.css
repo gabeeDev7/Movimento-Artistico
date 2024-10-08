@@ -1,0 +1,170 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fdf5e6;
+    margin: 0;
+}
+
+header {
+    background-color: #d2691e;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h3 {
+    color: #8b4513;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1em;
+    color: #333;
+    text-align: justify;
+    line-height: 1.6;
+    margin: 10px auto;
+    max-width: 900px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.imgcabeca img {
+    max-width: 400px;
+    margin: 10px 20px;
+}
+
+.pai_natu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.natu_li {
+    flex: 1;
+    min-width: 250px;
+    text-align: left;
+}
+
+.natu_img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.banner .vazio h3 {
+    visibility: hidden;
+}
+
+.Topo img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #d2691e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+img{
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.7),
+    -12px -12px 25px rgba(255, 255, 255, 0.2);;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.imgcabeca,.natu_img,.img_corcunda2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+h2,h3{
+    background-color: darkorange;
+}
+.natu_img img{
+    height: 300px;
+}
+
+.img_corcunda2{
+    background-color: #d2691e;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+}
+.pai_natu{
+    align-items: center;
+    background-color: rgb(176, 106, 15);
+    border-radius: 20px;
+    color: white;
+}
+
+.Topo{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.natu_li{
+    width: 100%;
+}
+
+.natu_img2,.natu_img3{
+    width: 40%;
+}
+.natu_li2,.natu_li3{
+    width: 50%;
+}

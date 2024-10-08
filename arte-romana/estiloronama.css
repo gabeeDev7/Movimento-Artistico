@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(56, 56, 59, 0.85);
+    margin: 0;
+    color: white;
+}
+
+header {
+    background-color: #24292f;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+
+h1{
+    background-color:#FFFFFF33 ;
+    padding-bottom: 20px;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 20px 0;
+    background-color: #ada2a2;
+    color: #ffffff;
+    padding: 10px;
+}
+
+p {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+#ladoAlado {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+#ima img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.arquitetura {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Mosaico {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.escultura {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer {
+    padding: 15px 0;
+    background-color: #24292f;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+.exemplos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ladoAlado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.arquitetura{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Mosaico{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.escultura{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+
+}
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.7),
+    -12px -12px 25px rgba(255, 255, 255, 0.2);
+}
+
+.img-topo {
+    padding: 4vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+img{
+    border-radius: 10px;
+}
+
+.arquitetura{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.Mosaico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.escultura{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img1 img,.img2 img ,.img3 img{
+    width: 100%;
+}
