@@ -1,0 +1,121 @@
+body {
+    font-family: Arial sans-serif;
+    text-align: center;
+    background-color: rgba(56, 56, 59, 0.85);
+    margin: 0px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+p{
+    font-size: 18px;
+
+}
+header {
+    background-color: #24292f;
+    padding: 5px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_ant {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cima_banner {
+    background-color: #ada2a2;
+    color: #ada2a2;
+}
+
+h2 {
+    background-color: #ada2a2;
+    color: #ffffff;
+}
+
+h3 {
+    background-color: #ada2a2;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: justify;
+    background-color: #4b4e54;
+    width: 750px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h1 {
+    font-size: 29px;
+}
+
+.primeiro h3 {
+    font-size: 20px;
+}
+
+img {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0)
+}
+
+.imgeffect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer {
+    padding-top: 10px;
+    background-color: #24292f;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.surgimento {
+    padding-bottom: 20px;
+}
+
+.legado {
+    padding-bottom: 40px ;
+}
+
+.img {
+    transition: transform 1s ease;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0)
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+h3{
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+}
+.lista{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+
+}

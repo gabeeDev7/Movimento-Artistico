@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    background-color: lightyellow;
+    margin: 0;
+}
+
+header {
+    background-color: darkorange;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon_eg{
+    padding: 20px;
+}
+
+
+
+.h3arte {
+    background-color: darkorange;
+    padding: 10px;
+}
+
+.h3arquitetura {
+    background-color: darkorange;
+    padding: 10px;
+}
+
+.h3escultura {
+    background-color: darkorange;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: justify;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h3pinturas {
+    background-color: darkorange;
+    padding: 10px;
+}
+
+.h3legado {
+    background-color: darkorange;
+    padding: 10px;
+}
+p{
+    font-size: 16px;
+}
+.imgg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+.imggg {
+    border: 1px solid;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0)
+}
+
+footer {
+    padding-top: 10px;
+    background-color: darkorange;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.qsroda {
+    padding-bottom: 40px;
+}
+
+.imggg {
+    transition: transform 1s ease;
+}
+
+.imggg:hover {
+    transform: scale(1.2);
+}
+
+
+.antbanner {
+    padding-bottom: 50px;
+}
+
+.linhabanner {
+    background-color: darkorange;
+    color: darkorange;
+    padding: 10px;
+}
+header{
+    width: 100%;
+}
+.imgg{
+    width: 100%;
+}
+.imgs img{
+    height: 300px;
+    width: 100%;
+}
